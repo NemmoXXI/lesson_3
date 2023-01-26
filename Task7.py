@@ -1,5 +1,8 @@
-class1 = int(input())
-class2 = int(input())
-class3 = int(input())
-
-print ((class1 // 2 + class1 % 2) + (class2 // 2 + class2 % 2) + (class3 // 2 + class3 % 2))
+x1 = int(input())
+y1 = int(input())
+x2 = int(input())
+y2 = int(input())
+if x1 == x2 or y1 == y2:
+    print('YES')
+else:
+    print('NO')
